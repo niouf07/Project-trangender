@@ -1,14 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+
 h1 {
   text-align: center;
 }
 
-
-
 .nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 60px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px;
 }
 
 a {
@@ -48,13 +48,14 @@ a {
 }
 
 .centre {
-  padding-left: 700px;
+  padding-left: 600px;
 }
 
 html {
-  background: url(/img/trans.png) no-repeat center center fixed; 
+  background: url(/img/trans.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: "EB Garamond", serif;
 }
