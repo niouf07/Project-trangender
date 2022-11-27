@@ -28,11 +28,11 @@ a {
 }
 
 .fr {
-  background-color: aqua;
+  background-color: rgb(91, 206, 250);
 }
 
 .ch {
-  background-color: rgb(254, 41, 240);
+  background-color: rgb(245, 169, 184);
 }
 
 .belge {
@@ -40,13 +40,21 @@ a {
 }
 
 .quebec {
-  background-color: rgb(254, 41, 240);
+  background-color: rgb(245, 169, 184);
 }
 
 .lux {
-  background-color: aqua;
+  background-color: rgb(91, 206, 250);
 }
 
 .centre {
   padding-left: 700px;
+}
+
+html {
+  background: url(/img/trans.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
