@@ -1,3 +1,52 @@
 h1 {
   text-align: center;
 }
+
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+}
+
+a {
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.fr {
+  background-color: aqua;
+}
+
+.ch {
+  background-color: rgb(254, 41, 240);
+}
+
+.belge {
+  background-color: #cccccc;
+}
+
+.quebec {
+  background-color: rgb(254, 41, 240);
+}
+
+.lux {
+  background-color: aqua;
+}
+
+.centre {
+  padding-left: 700px;
+}

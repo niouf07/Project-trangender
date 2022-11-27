@@ -127,5 +127,5 @@ https://ant-france.eu/index.php/accueillir-informer-defendre/assumer-son-genre/c
 https://www.has-sante.fr/upload/docs/application/pdf/2022-09/reco454_cadrage_trans_mel.pdf
 
 
-brochure: https://outrans.org/ressources/hormones-et-parcours-trans/
+brochure: https://outrans.org/ressources/hormones-et-parcours-trans/ 
 
