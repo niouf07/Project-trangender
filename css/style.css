@@ -11,7 +11,7 @@ h1 {
   padding-top: 60px;
 }
 
-a {
+#box {
   border-radius: 10px;
   border: 4px double #cccccc;
   color: black;
@@ -25,7 +25,7 @@ a {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-}
+} 
 
 .fr {
   background-color: rgb(91, 206, 250);
@@ -58,4 +58,108 @@ html {
   -o-background-size: cover;
   background-size: cover;
   font-family: "EB Garamond", serif;
+}
+
+.content {
+  /* grow shrink basis */
+  flex: 1 0 auto;
+}
+.content p {
+  padding: 2vw 10vw 5vw;
+  text-align: justify;
+}
+
+footer {
+  flex-shrink: 0;
+  border-top: 1px dashed #000;
+  width: 100%;
+  background: #fff;
+  color: #333;
+}
+.content-footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 16px;
+  padding: 50px 0 100px;
+}
+
+.bloc {
+  flex-basis: 20%;
+  margin: 0 30px;
+}
+
+/* contact */
+.footer-contact h3,
+.footer-services h3,
+.footer-medias h3 {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+.footer-contact p {
+  padding: 5px 0;
+}
+
+/* Services */
+
+
+.schedule-list,
+.media-list {
+  list-style-type: none;
+}
+
+
+/* Medias */
+
+.media-list {
+  position: relative;
+  right: 10px;
+}
+.media-list svg {
+  width: 30px;
+  margin: 10px 10px;
+}
+.media-list a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 1000px) {
+
+  .content-footer {
+      max-width: 100%;
+      flex-wrap: wrap;
+  }
+  .bloc {
+      flex-basis: auto;
+      margin: 20px 20px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .content-footer {
+      justify-content: center;
+      padding-top: 30px;
+  }
+  .bloc {
+      flex-basis: 70%;
+      /* margin: 10px; */
+  }
+  .footer-contact h3,
+  .footer-medias h3 {
+      padding-bottom: 5px;
+  }
+
 }
