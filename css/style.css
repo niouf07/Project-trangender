@@ -25,7 +25,7 @@ h1 {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-} 
+}
 
 .fr {
   background-color: rgb(91, 206, 250);
@@ -105,12 +105,10 @@ footer {
 
 /* Services */
 
-
 .schedule-list,
 .media-list {
   list-style-type: none;
 }
-
 
 /* Medias */
 
@@ -130,36 +128,42 @@ footer {
   font-size: 20px;
 }
 
-
 /* Media queries */
 
 @media screen and (max-width: 1000px) {
-
   .content-footer {
-      max-width: 100%;
-      flex-wrap: wrap;
+    max-width: 100%;
+    flex-wrap: wrap;
   }
   .bloc {
-      flex-basis: auto;
-      margin: 20px 20px;
+    flex-basis: auto;
+    margin: 20px 20px;
   }
-
-
 }
-
 
 @media screen and (max-width: 600px) {
   .content-footer {
-      justify-content: center;
-      padding-top: 30px;
+    justify-content: center;
+    padding-top: 30px;
   }
   .bloc {
-      flex-basis: 70%;
-      /* margin: 10px; */
+    flex-basis: 70%;
+    /* margin: 10px; */
   }
   .footer-contact h3,
   .footer-medias h3 {
-      padding-bottom: 5px;
+    padding-bottom: 5px;
   }
+}
 
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px;
+  background-color: #000;
+}
+
+.france {
+  padding-left: 300px;
 }
